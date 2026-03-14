@@ -1,0 +1,14 @@
+{
+    "id": "botble/rezgo-connector",
+    "name": "Rezgo Connector",
+    "namespace": "Botble\\RezgoConnector\\",
+    "provider": "Botble\\RezgoConnector\\Providers\\RezgoConnectorServiceProvider",
+    "author": "Custom Development",
+    "url": "https://rezgo.com",
+    "version": "1.0.0",
+    "description": "Integrates the Rezgo Booking API with Farmart eCommerce. Syncs orders placed on the storefront to Rezgo in real-time.",
+    "minimum_core_version": "7.3.0",
+    "require": [
+        "botble/ecommerce"
+    ]
+}
