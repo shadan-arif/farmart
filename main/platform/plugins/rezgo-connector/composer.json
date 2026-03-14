@@ -1,0 +1,23 @@
+{
+    "name": "botble/rezgo-connector",
+    "description": "Rezgo Booking API connector plugin for Botble Farmart",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Botble\\RezgoConnector\\": "src/",
+            "Botble\\RezgoConnector\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Botble\\RezgoConnector\\Providers\\RezgoConnectorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
